@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>YGU Criações – Vídeos Publicitários com IA</title>
+  <meta name="description" content="Vídeos comerciais e anúncios de alto impacto gerados com Inteligência Artificial para redes sociais e empresas.">
+  <meta name="theme-color" content="#050b18">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="YGU Criações – Vídeos com Inteligência Artificial">
+  <meta property="og:description" content="Transforme suas ideias em anúncios comerciais de alto impacto.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="wrap">
+      <div class="logo">
+        YGU<span>CRIAÇÕES</span>
+      </div>
+      
+      <span class="sub-badge">SUA IDEIA EM MOVIMENTO</span>
+      <h1>Vídeos Publicitários<br>com <b>Inteligência Artificial</b></h1>
+      <p class="lead">Produção ágil de anúncios, narrativas imersivas e criativos prontos para tráfego pago e redes sociais, com custo reduzido e impacto visual máximo.</p>
+      
+      <div class="chips">
+        <span>Ideias Criativas</span>
+        <span>Roteiros Personalizados</span>
+        <span>Edição Cinematográfica</span>
+        <span>Narrativas com IA</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- SEÇÃO 1: PACOTES -->
+    <section class="section" id="planos">
+      <div class="section-head">
+        <h2>1. Escolha o formato ideal</h2>
+        <p class="hint">Selecione um pacote abaixo para configurar seu pedido.</p>
+      </div>
+      <div class="plans-grid" id="plans"></div>
+    </section>
+
+    <!-- INFORMAÇÕES DE ENTREGA -->
+    <section class="section">
+      <div class="section-head">
+        <h2>O que está incluso e condições</h2>
+        <p class="hint">Transparência em cada etapa da produção.</p>
+      </div>
+      <div class="extras-grid">
+        <div class="extra-card">
+          <span class="extra-icon">📱</span>
+          <b>Formatos Flexíveis</b>
+          <p>Vídeo vertical (9:16) para Reels, TikTok e Shorts, ou horizontal (16:9) para feeds e YouTube.</p>
+        </div>
+        <div class="extra-card">
+          <span class="extra-icon">⚡</span>
+          <b>Prazos Ágeis</b>
+          <p>Entrega combinada antes do início, tipicamente entre 48h e 5 dias úteis a depender do pacote.</p>
+        </div>
+        <div class="extra-card">
+          <span class="extra-icon">🔄</span>
+          <b>Revisões Garantidas</b>
+          <p>Até 2 rodadas completas de ajustes incluídas para deixar tudo alinhado à sua marca.</p>
+        </div>
+        <div class="extra-card">
+          <span class="extra-icon">🔒</span>
+          <b>Condição de Pagamento</b>
+          <p>50% na aprovação do roteiro/início da produção e 50% na entrega final do vídeo aprovado.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO 2: FORMULÁRIO -->
+    <section class="section" id="orcamento">
+      <div class="section-head">
+        <h2>2. Solicitar orçamento</h2>
+        <p class="hint">Preencha os dados abaixo para gerar seu atendimento direto no WhatsApp.</p>
+      </div>
+
+      <div class="form-container">
+        <!-- Banner de Seleção de Pacote -->
+        <div class="selection-banner" id="sel" role="status" aria-live="polite">
+          <span class="banner-icon">💡</span>
+          <div class="banner-text">
+            <strong>Nenhum pacote selecionado</strong>
+            <p>Toque em uma das opções acima para continuar.</p>
+          </div>
+        </div>
+
+        <form id="orderForm" novalidate>
+          <div class="form-grid">
+            <div class="field-group">
+              <label for="nome">Seu nome ou empresa *</label>
+              <input id="nome" name="nome" type="text" autocomplete="name" placeholder="Ex.: Lucas ou Barbearia Silva" required>
+            </div>
+
+            <div class="field-group">
+              <label for="nicho">Segmento / Ramo</label>
+              <input id="nicho" name="nicho" type="text" placeholder="Ex.: Restaurante, Moda, Imóveis, Infoproduto">
+            </div>
+
+            <div class="field-group full-width">
+              <label for="obs">Detalhes sobre o vídeo (opcional)</label>
+              <textarea id="obs" name="obs" rows="3" placeholder="Ex.: Quero divulgar a inauguração de uma franquia com visual moderno e narração energética."></textarea>
+            </div>
+          </div>
+
+          <button class="send-btn" type="submit" id="submitBtn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67Z"/>
+            </svg>
+            <span>Iniciar Atendimento no WhatsApp</span>
+          </button>
+          
+          <p class="form-error" id="err" role="alert"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <strong>YGU Criações</strong> – Inteligência Artificial aplicada ao audiovisual comercial.
+      <br>
+      <small>© 2026 Todos os direitos reservados.</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
